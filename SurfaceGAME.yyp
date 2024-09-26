@@ -1,102 +1,512 @@
 {
-  "$GMProject":"v1",
-  "%Name":"SurfaceGAME",
-  "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  "$GMProject": "v1",
+  "%Name": "SurfaceGAME",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
   ],
-  "configs":{
-    "children":[],
-    "name":"Default",
+  "configs": {
+    "children": [],
+    "name": "Default"
   },
-  "defaultScriptType":0,
-  "Folders":[
-    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  "defaultScriptType": 0,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "name": "Objects",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sprites",
+      "folderPath": "folders/Sprites.yy",
+      "name": "Sprites",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Scripts",
+      "folderPath": "folders/Scripts.yy",
+      "name": "Scripts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
-  "isEcma":false,
-  "LibraryEmitters":[],
-  "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.14.3.217"
   },
-  "name":"SurfaceGAME",
-  "resources":[
-    {"id":{"name":"oA1","path":"objects/oA1/oA1.yy",},},
-    {"id":{"name":"oAerial","path":"objects/oAerial/oAerial.yy",},},
-    {"id":{"name":"oB2","path":"objects/oB2/oB2.yy",},},
-    {"id":{"name":"oBb2","path":"objects/oBb2/oBb2.yy",},},
-    {"id":{"name":"obg","path":"objects/obg/obg.yy",},},
-    {"id":{"name":"Object29","path":"objects/Object29/Object29.yy",},},
-    {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
-    {"id":{"name":"oCannon","path":"objects/oCannon/oCannon.yy",},},
-    {"id":{"name":"oDiamond","path":"objects/oDiamond/oDiamond.yy",},},
-    {"id":{"name":"oDiamondA","path":"objects/oDiamondA/oDiamondA.yy",},},
-    {"id":{"name":"oFish","path":"objects/oFish/oFish.yy",},},
-    {"id":{"name":"oHorz","path":"objects/oHorz/oHorz.yy",},},
-    {"id":{"name":"oJail","path":"objects/oJail/oJail.yy",},},
-    {"id":{"name":"oJtop","path":"objects/oJtop/oJtop.yy",},},
-    {"id":{"name":"oLongSpike_1","path":"objects/oLongSpike_1/oLongSpike_1.yy",},},
-    {"id":{"name":"oLongSpike_2","path":"objects/oLongSpike_2/oLongSpike_2.yy",},},
-    {"id":{"name":"oLongSpike","path":"objects/oLongSpike/oLongSpike.yy",},},
-    {"id":{"name":"oLowestSeaGround_2","path":"objects/oLowestSeaGround_2/oLowestSeaGround_2.yy",},},
-    {"id":{"name":"oLuLu","path":"objects/oLuLu/oLuLu.yy",},},
-    {"id":{"name":"oMine","path":"objects/oMine/oMine.yy",},},
-    {"id":{"name":"oNotAsLongSprite","path":"objects/oNotAsLongSprite/oNotAsLongSprite.yy",},},
-    {"id":{"name":"oSingleS","path":"objects/oSingleS/oSingleS.yy",},},
-    {"id":{"name":"oSmalerSpikes","path":"objects/oSmalerSpikes/oSmalerSpikes.yy",},},
-    {"id":{"name":"oSmallerSpikes","path":"objects/oSmallerSpikes/oSmallerSpikes.yy",},},
-    {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
-    {"id":{"name":"oSpikeA","path":"objects/oSpikeA/oSpikeA.yy",},},
-    {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},},
-    {"id":{"name":"oSpikeSide","path":"objects/oSpikeSide/oSpikeSide.yy",},},
-    {"id":{"name":"oStructureA","path":"objects/oStructureA/oStructureA.yy",},},
-    {"id":{"name":"oStructureB","path":"objects/oStructureB/oStructureB.yy",},},
-    {"id":{"name":"oStructureC","path":"objects/oStructureC/oStructureC.yy",},},
-    {"id":{"name":"oSub","path":"objects/oSub/oSub.yy",},},
-    {"id":{"name":"oVert","path":"objects/oVert/oVert.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Background","path":"sprites/Background/Background.yy",},},
-    {"id":{"name":"s","path":"sprites/s/s.yy",},},
-    {"id":{"name":"s2ndLowestSG_1","path":"sprites/s2ndLowestSG_1/s2ndLowestSG_1.yy",},},
-    {"id":{"name":"sA1","path":"sprites/sA1/sA1.yy",},},
-    {"id":{"name":"sAerial","path":"sprites/sAerial/sAerial.yy",},},
-    {"id":{"name":"sB2","path":"sprites/sB2/sB2.yy",},},
-    {"id":{"name":"sBb2","path":"sprites/sBb2/sBb2.yy",},},
-    {"id":{"name":"sbg","path":"sprites/sbg/sbg.yy",},},
-    {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
-    {"id":{"name":"sCannon","path":"sprites/sCannon/sCannon.yy",},},
-    {"id":{"name":"sDiamond","path":"sprites/sDiamond/sDiamond.yy",},},
-    {"id":{"name":"sDiamondA","path":"sprites/sDiamondA/sDiamondA.yy",},},
-    {"id":{"name":"sFish","path":"sprites/sFish/sFish.yy",},},
-    {"id":{"name":"sHorz","path":"sprites/sHorz/sHorz.yy",},},
-    {"id":{"name":"sJail","path":"sprites/sJail/sJail.yy",},},
-    {"id":{"name":"sJtop","path":"sprites/sJtop/sJtop.yy",},},
-    {"id":{"name":"sLongSpike_1","path":"sprites/sLongSpike_1/sLongSpike_1.yy",},},
-    {"id":{"name":"sLongSpike_2","path":"sprites/sLongSpike_2/sLongSpike_2.yy",},},
-    {"id":{"name":"sLongSpike","path":"sprites/sLongSpike/sLongSpike.yy",},},
-    {"id":{"name":"sLowestSeaGround_2","path":"sprites/sLowestSeaGround_2/sLowestSeaGround_2.yy",},},
-    {"id":{"name":"sLuLu","path":"sprites/sLuLu/sLuLu.yy",},},
-    {"id":{"name":"sMine","path":"sprites/sMine/sMine.yy",},},
-    {"id":{"name":"sNotAsLongSpike","path":"sprites/sNotAsLongSpike/sNotAsLongSpike.yy",},},
-    {"id":{"name":"sSingleS","path":"sprites/sSingleS/sSingleS.yy",},},
-    {"id":{"name":"sSmalerSpikes","path":"sprites/sSmalerSpikes/sSmalerSpikes.yy",},},
-    {"id":{"name":"sSmallerSpikes","path":"sprites/sSmallerSpikes/sSmallerSpikes.yy",},},
-    {"id":{"name":"sSpikeA","path":"sprites/sSpikeA/sSpikeA.yy",},},
-    {"id":{"name":"sSpikeSide","path":"sprites/sSpikeSide/sSpikeSide.yy",},},
-    {"id":{"name":"sStructureA","path":"sprites/sStructureA/sStructureA.yy",},},
-    {"id":{"name":"sStructureB","path":"sprites/sStructureB/sStructureB.yy",},},
-    {"id":{"name":"sStructureC","path":"sprites/sStructureC/sStructureC.yy",},},
-    {"id":{"name":"sSub","path":"sprites/sSub/sSub.yy",},},
-    {"id":{"name":"sVert","path":"sprites/sVert/sVert.yy",},},
+  "name": "SurfaceGAME",
+  "resources": [
+    {
+      "id": {
+        "name": "oA1",
+        "path": "objects/oA1/oA1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oAerial",
+        "path": "objects/oAerial/oAerial.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oB2",
+        "path": "objects/oB2/oB2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oBb2",
+        "path": "objects/oBb2/oBb2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obg",
+        "path": "objects/obg/obg.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Object29",
+        "path": "objects/Object29/Object29.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oBullet",
+        "path": "objects/oBullet/oBullet.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oCannon",
+        "path": "objects/oCannon/oCannon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oDiamond",
+        "path": "objects/oDiamond/oDiamond.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oDiamondA",
+        "path": "objects/oDiamondA/oDiamondA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oFish",
+        "path": "objects/oFish/oFish.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oHorz",
+        "path": "objects/oHorz/oHorz.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oJail",
+        "path": "objects/oJail/oJail.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oJtop",
+        "path": "objects/oJtop/oJtop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oLongSpike_1",
+        "path": "objects/oLongSpike_1/oLongSpike_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oLongSpike_2",
+        "path": "objects/oLongSpike_2/oLongSpike_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oLongSpike",
+        "path": "objects/oLongSpike/oLongSpike.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oLowestSeaGround_2",
+        "path": "objects/oLowestSeaGround_2/oLowestSeaGround_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oLuLu",
+        "path": "objects/oLuLu/oLuLu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oMine",
+        "path": "objects/oMine/oMine.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oNotAsLongSprite",
+        "path": "objects/oNotAsLongSprite/oNotAsLongSprite.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSingleS",
+        "path": "objects/oSingleS/oSingleS.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSmalerSpikes",
+        "path": "objects/oSmalerSpikes/oSmalerSpikes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSmallerSpikes",
+        "path": "objects/oSmallerSpikes/oSmallerSpikes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSolid",
+        "path": "objects/oSolid/oSolid.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSpikeA",
+        "path": "objects/oSpikeA/oSpikeA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSpikes",
+        "path": "objects/oSpikes/oSpikes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSpikeSide",
+        "path": "objects/oSpikeSide/oSpikeSide.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oStructureA",
+        "path": "objects/oStructureA/oStructureA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oStructureB",
+        "path": "objects/oStructureB/oStructureB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oStructureC",
+        "path": "objects/oStructureC/oStructureC.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oSub",
+        "path": "objects/oSub/oSub.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oVert",
+        "path": "objects/oVert/oVert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Room1",
+        "path": "rooms/Room1/Room1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "Background",
+        "path": "sprites/Background/Background.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s",
+        "path": "sprites/s/s.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s2ndLowestSG_1",
+        "path": "sprites/s2ndLowestSG_1/s2ndLowestSG_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sA1",
+        "path": "sprites/sA1/sA1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sAerial",
+        "path": "sprites/sAerial/sAerial.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sB2",
+        "path": "sprites/sB2/sB2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sBb2",
+        "path": "sprites/sBb2/sBb2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sbg",
+        "path": "sprites/sbg/sbg.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sBullet",
+        "path": "sprites/sBullet/sBullet.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sCannon",
+        "path": "sprites/sCannon/sCannon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDiamond",
+        "path": "sprites/sDiamond/sDiamond.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sDiamondA",
+        "path": "sprites/sDiamondA/sDiamondA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sFish",
+        "path": "sprites/sFish/sFish.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sHorz",
+        "path": "sprites/sHorz/sHorz.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sJail",
+        "path": "sprites/sJail/sJail.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sJtop",
+        "path": "sprites/sJtop/sJtop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sLongSpike_1",
+        "path": "sprites/sLongSpike_1/sLongSpike_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sLongSpike_2",
+        "path": "sprites/sLongSpike_2/sLongSpike_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sLongSpike",
+        "path": "sprites/sLongSpike/sLongSpike.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sLowestSeaGround_2",
+        "path": "sprites/sLowestSeaGround_2/sLowestSeaGround_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sLuLu",
+        "path": "sprites/sLuLu/sLuLu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sMine",
+        "path": "sprites/sMine/sMine.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sNotAsLongSpike",
+        "path": "sprites/sNotAsLongSpike/sNotAsLongSpike.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSingleS",
+        "path": "sprites/sSingleS/sSingleS.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSmalerSpikes",
+        "path": "sprites/sSmalerSpikes/sSmalerSpikes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSmallerSpikes",
+        "path": "sprites/sSmallerSpikes/sSmallerSpikes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSpikeA",
+        "path": "sprites/sSpikeA/sSpikeA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSpikeSide",
+        "path": "sprites/sSpikeSide/sSpikeSide.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sStructureA",
+        "path": "sprites/sStructureA/sStructureA.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sStructureB",
+        "path": "sprites/sStructureB/sStructureB.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sStructureC",
+        "path": "sprites/sStructureC/sStructureC.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSub",
+        "path": "sprites/sSub/sSub.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sVert",
+        "path": "sprites/sVert/sVert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sub_motion",
+        "path": "scripts/sub_motion/sub_motion.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sub_resources",
+        "path": "scripts/sub_resources/sub_resources.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sub_collectibles",
+        "path": "scripts/sub_collectibles/sub_collectibles.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sub_hud",
+        "path": "scripts/sub_hud/sub_hud.yy"
+      }
+    }
   ],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "Room1",
+        "path": "rooms/Room1/Room1.yy"
+      }
+    }
   ],
-  "templateType":"game",
-  "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
 }

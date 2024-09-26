@@ -1,11 +1,28 @@
 hspd = 0;
 vspd = 0;
-
 move_speed = 2.5;
 water_gravity = 0.15;
 buoyancy_force = 0.35;
 max_fall_speed = 4;
-// Keep the starting position as a safe recovery point.
 spawn_x = x;
 spawn_y = y;
 respawn_cooldown = 0;
+health = 3;
+oxygen_capacity = 100;
+oxygen = oxygen_capacity;
+oxygen_use = 2;
+surface_y = min(120, room_height * 0.15);
+score = 0;
+combo = 0;
+combo_time = 0;
+collected = 0;
+// Count after all room instances have completed their Create events.
+total_collectibles = -1;
+level_complete = false;
+paused = false;
+game_over = false;
+message = "Arrows to move · C for a surface checkpoint · P to pause";
+message_time = 5;
+ini_open("surface_progress.ini");
+best_score = max(0, ini_read_real("progress", "best_score", 0));
+ini_close();
